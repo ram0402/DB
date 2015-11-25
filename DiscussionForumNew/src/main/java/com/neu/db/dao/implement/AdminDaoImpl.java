@@ -1,8 +1,8 @@
 package com.neu.db.dao.implement;
-import com.neu.db.dao.AdminMethods;
+import com.neu.db.dao.AdminDao;
 
 
-public class Admin extends User implements AdminMethods {
+public class AdminDaoImpl extends UserDaoImpl implements AdminDao {
 	
 ////Write definition for unimplemented methods
 

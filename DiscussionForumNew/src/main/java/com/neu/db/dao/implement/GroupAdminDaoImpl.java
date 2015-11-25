@@ -1,43 +1,51 @@
 package com.neu.db.dao.implement;
-import com.neu.db.dao.UserMethods;
+import com.neu.db.dao.GroupAdminDao;
 
 
-public class User implements UserMethods {
+public class GroupAdminDaoImpl extends UserDaoImpl implements GroupAdminDao {
+
+	////Write definition for unimplemented methods
 	
 	@Override
-	public void logout() {
+	public void approveUserPost() {
 		// TODO Auto-generated method stub
 		
 	}
+
 	@Override
-	public void register() {
+	public void rejectUserPost() {
 		// TODO Auto-generated method stub
 		
 	}
+
 	@Override
-	public void addNewPost() {
+	public void pinPost() {
 		// TODO Auto-generated method stub
 		
 	}
+
 	@Override
-	public void deletePost() {
+	public void endorsePost() {
 		// TODO Auto-generated method stub
 		
 	}
+
 	@Override
-	public void browseThroughGroups() {
+	public void addGroupUsers() {
 		// TODO Auto-generated method stub
 		
 	}
+
 	@Override
-	public void upvotePost() {
+	public void updateGroupDescription() {
 		// TODO Auto-generated method stub
 		
 	}
+
 	@Override
-	public void downvotePost() {
+	public void removeUserFromGroup() {
 		// TODO Auto-generated method stub
 		
 	}
-	
+
 }

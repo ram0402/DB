@@ -1,8 +1,12 @@
 package com.neu.db.pojos;
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Component;
+
 import com.neu.db.enums.InterestLevel;
 
-
-public class Category {
+@Component
+@Scope("prototype")
+public class CategoryBean {
 	
 	public int id;
 	public String name;

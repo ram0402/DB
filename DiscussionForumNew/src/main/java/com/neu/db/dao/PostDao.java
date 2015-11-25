@@ -1,6 +1,6 @@
 package com.neu.db.dao;
 
-public interface PostMethods {
+public interface PostDao {
 	
 	void updatePost();
 	void deletePost();

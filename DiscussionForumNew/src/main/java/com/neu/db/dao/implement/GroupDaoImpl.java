@@ -1,12 +1,12 @@
 package com.neu.db.dao.implement;
 
-public class Group {
+public class GroupDaoImpl {
 	
 	public int id;
 	public String name;
 	public String description;
-	public User admin;
-	public User members;
+	public UserDaoImpl admin;
+	public UserDaoImpl members;
 	public int getId() {
 		return id;
 	}
@@ -26,16 +26,16 @@ public class Group {
 	public void setDescription(String description) {
 		this.description = description;
 	}
-	public User getAdmin() {
+	public UserDaoImpl getAdmin() {
 		return admin;
 	}
-	public void setAdmin(User admin) {
+	public void setAdmin(UserDaoImpl admin) {
 		this.admin = admin;
 	}
-	public User getMembers() {
+	public UserDaoImpl getMembers() {
 		return members;
 	}
-	public void setMembers(User members) {
+	public void setMembers(UserDaoImpl members) {
 		this.members = members;
 	}
 	

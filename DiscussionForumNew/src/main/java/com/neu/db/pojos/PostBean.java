@@ -2,8 +2,12 @@ package com.neu.db.pojos;
 
 import java.util.Date;
 
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Component;
 
-public class Post {
+@Component
+@Scope("prototype")
+public class PostBean {
 	
 	public int id;
 	public int groupId;

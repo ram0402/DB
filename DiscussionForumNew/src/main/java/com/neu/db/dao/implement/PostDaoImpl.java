@@ -1,10 +1,10 @@
 package com.neu.db.dao.implement;
-import com.neu.db.dao.PostMethods;
+import com.neu.db.dao.PostDao;
 
 import java.util.Date;
 
 
-public class Post implements PostMethods {
+public class PostDaoImpl implements PostDao {
 	//definitions incomplete
 	
 	@Override

@@ -1,12 +1,17 @@
 package com.neu.db.pojos;
 
-public class Group {
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Component;
+
+@Component
+@Scope("prototype")
+public class GroupBean {
 	
 	public int id;
 	public String name;
 	public String description;
-	public User admin;
-	public User members;
+	public UserBean admin;
+	public UserBean members;
 	public int getId() {
 		return id;
 	}
@@ -26,16 +31,16 @@ public class Group {
 	public void setDescription(String description) {
 		this.description = description;
 	}
-	public User getAdmin() {
+	public UserBean getAdmin() {
 		return admin;
 	}
-	public void setAdmin(User admin) {
+	public void setAdmin(UserBean admin) {
 		this.admin = admin;
 	}
-	public User getMembers() {
+	public UserBean getMembers() {
 		return members;
 	}
-	public void setMembers(User members) {
+	public void setMembers(UserBean members) {
 		this.members = members;
 	}
 	

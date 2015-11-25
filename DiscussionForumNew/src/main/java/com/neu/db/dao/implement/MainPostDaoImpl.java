@@ -1,6 +1,6 @@
 package com.neu.db.dao.implement;
 
-public class MainPost extends Post {
+public class MainPostDaoImpl extends PostDaoImpl {
 
 	public int commentCount;
 

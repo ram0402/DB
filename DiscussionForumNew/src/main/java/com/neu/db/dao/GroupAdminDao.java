@@ -1,6 +1,6 @@
 package com.neu.db.dao;
 
-public interface GroupAdminMethods {
+public interface GroupAdminDao {
 	
 	void approveUserPost();
 	void rejectUserPost();

@@ -1,6 +1,11 @@
 package com.neu.db.pojos;
 
-public class MainPost extends Post {
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Component;
+
+@Component
+@Scope("prototype")
+public class MainPostBean extends PostBean {
 
 	public int commentCount;
 

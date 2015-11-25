@@ -1,6 +1,6 @@
 package com.neu.db.dao;
 
-public interface UserMethods {
+public interface UserDao {
 	
 	void logout();
 	void register();

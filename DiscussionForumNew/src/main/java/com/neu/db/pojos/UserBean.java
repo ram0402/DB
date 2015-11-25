@@ -1,6 +1,11 @@
 package com.neu.db.pojos;
 
-public class User {
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Component;
+
+@Component
+@Scope("singleton")
+public class UserBean {
 	
 	public int id;
 	public String username;

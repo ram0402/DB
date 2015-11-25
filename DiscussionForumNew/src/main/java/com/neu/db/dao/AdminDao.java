@@ -1,6 +1,6 @@
 package com.neu.db.dao;
 
-public interface AdminMethods {
+public interface AdminDao {
 	
 	void registerGroup();
 	void deactivateGroup();
